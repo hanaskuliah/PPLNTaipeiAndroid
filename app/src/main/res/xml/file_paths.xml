@@ -1,0 +1,8 @@
+<path xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- everything -->
+    <cache-path name="all" path="." />
+
+    <!--
+    <cache-path name="images" path="/images" />
+    -->
+</path>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">PPLN Taipei</string>
+    <string name="title_scan">Pertama Scan Kode Pemilih</string>
+    <string name="txt_id_data_pemilih">ID Data Pemilih</string>
+    <string name="txt_kode_tracking_pos">Kode Tracking Pos</string>
+    <string name="user_name">Masukkan Nama Anda</string>
+    <string name="user_kpps_no">Masukkan No. KPPS Anda</string>
+    <string name="login_button">Masuk</string>
+    <string name="register">Daftar</string>
+    <string name="register_page_title">Masukkan Detail Info</string>
+    <string name="register_page">Konfirmasi</string>
+    <string name="welcome">Selamat Datang</string>
+    <string name="Kpps">Petugas KPPSLN Pos</string>
+    <string name="versi_app">Versi 6 28-maret</string>
+    <string name="kirim_btn">Kirim</string>
+    <string name="terima_btn">Terima</string>
+    <string name="total_ss">Total</string>
+    <string name="txt_scan">Scan</string>
+    <string name="txt_showdata">Lihat Data</string>
+    <string name="txt_total_juml">Jumlah Total Data</string>
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@color/colorWhite"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="137dp"
+        app:srcCompat="@drawable/logoppln" />
+
+    <TextView
+        android:text="@string/register_page_title"
+        android:textColor="#f28503"
+        android:textAllCaps="true"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/txt_name"
+        android:inputType="text"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/user_name"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+    <EditText
+        android:inputType="number"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:id="@+id/txt_kpps_no"
+        android:hint="@string/user_kpps_no"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <Button
+        android:id="@+id/registerBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="@string/register_page"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="78dp" />
+
+    <Button
+        android:id="@+id/btn_reset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RESET DATABASE DAN BACKUP" />
+
+</LinearLayout>

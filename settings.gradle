@@ -1,0 +1,2 @@
+include ':app', ':barcode-readerok'
+project(':barcode-readerok').projectDir = new File('barcode-reader')
